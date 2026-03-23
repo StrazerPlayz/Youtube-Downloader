@@ -7,7 +7,7 @@ Download videos, audio, playlists, and more — all in one clean interface.
 
 ---
 
-![Version](https://img.shields.io/badge/version-1.0.2-blue)
+![Version](https://img.shields.io/badge/version-1.0.3-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Powered by](https://img.shields.io/badge/powered%20by-yt--dlp-red)
 
@@ -22,6 +22,24 @@ Download videos, audio, playlists, and more — all in one clean interface.
 * 📁 Automatic file organization
 * 🎨 Clean and user-friendly interface
 * 🔐 Member-only content support (with authentication)
+
+---
+
+## 🆕 Version 1.0.3
+
+### 🛠️ Fixes
+
+* Rebuilt the app using **python.org Python (3.14)** instead of Microsoft Store Python for improved packaging reliability
+
+* Fixed startup crash on some systems:
+
+  * `Failed to load Python DLL (python313.dll)`
+
+* Bundled required Visual C++ runtime dependencies:
+
+  * `MSVCP140.dll`
+  * `VCRUNTIME140.dll`
+  * `VCRUNTIME140_1.dll`
 
 ---
 
@@ -54,58 +72,6 @@ Download videos, audio, playlists, and more — all in one clean interface.
   * `VCRUNTIME140_1.dll`
 
 * Improved installer and update reliability for existing users
-
----
-
-## 🆕 Version 1.1.0 (Previous Update)
-
-A major UI update introducing a fully functional top menu bar and improved usability.
-
-### 🧭 New Top Menu Bar
-
-* **File**
-
-  * Add URL
-  * Start Download
-  * Exit
-
-* **Edit**
-
-  * Remove selected queue item
-  * Clear queue
-
-* **View**
-
-  * Always On Top toggle
-
-* **Tools**
-
-  * Browser Login
-  * Check for Updates
-  * Open Save Folder
-
-* **Help**
-
-  * About dialog
-  * Open GitHub repository
-
----
-
-### ⌨️ Keyboard Shortcuts
-
-* `Ctrl + N` → Add URL
-* `Ctrl + D` → Start Download
-* `Delete` → Remove selected item
-* `Ctrl + L` → Browser Login
-* `Ctrl + U` → Check for Updates
-* `Ctrl + Q` → Exit
-
----
-
-### ⚙️ Improvements
-
-* Cleaner and more professional UI layout
-* Improved workflow and accessibility
 
 ---
 
