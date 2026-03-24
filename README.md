@@ -7,7 +7,7 @@ Download videos, audio, playlists, and more — all in one clean interface.
 
 ---
 
-![Version](https://img.shields.io/badge/version-1.0.4-blue)
+![Version](https://img.shields.io/badge/version-1.0.5-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Powered by](https://img.shields.io/badge/powered%20by-yt--dlp-red)
 
@@ -25,43 +25,47 @@ Download videos, audio, playlists, and more — all in one clean interface.
 
 ---
 
+## 🆕 Version 1.0.5
+
+### ✨ Improvements
+
+* Refined and polished the UI for a cleaner desktop experience
+
+* Improved download settings popup for better usability
+
+* Enhanced download workflow and responsiveness
+
+* Improved queue and progress updates
+
+---
+
+### 🛠️ Fixes
+
+* Fixed UI inconsistencies across Light/Dark/System themes
+
+* Improved stability when starting downloads with custom settings
+
+* General bug fixes and performance improvements
+
+---
+
 ## 🆕 Version 1.0.4
 
-### 🚨 Critical Fixes
+### 🎨 UI & Features
 
-* Fixed startup crash on some systems:
+* Major UI refresh with a classic light desktop layout
 
-  * `Failed to load Python DLL from _MEI... temp path`
+* Added **Light / Dark / System appearance switching**
 
-* Switched internal app packaging from **PyInstaller onefile → onedir** for improved runtime reliability
+* New download workflow with settings popup (quality, format, playlist, etc.)
 
-* Updated installer to deploy the full stable app runtime folder
+* Includes update checker, queue, and progress system
 
 ---
 
 ### ⚙️ Stability
 
-* Improved compatibility across different Windows environments
-
-* Continued using bundled Visual C++ runtime dependencies for safer launch behavior
-
----
-
-## 🆕 Version 1.0.3
-
-### 🛠️ Fixes
-
-* Rebuilt the app using **python.org Python (3.14)** instead of Microsoft Store Python for improved packaging reliability
-
-* Fixed startup crash on some systems:
-
-  * `Failed to load Python DLL (python313.dll)`
-
-* Bundled required Visual C++ runtime dependencies:
-
-  * `MSVCP140.dll`
-  * `VCRUNTIME140.dll`
-  * `VCRUNTIME140_1.dll`
+* Packaging improvements for more reliable app startup
 
 ---
 
