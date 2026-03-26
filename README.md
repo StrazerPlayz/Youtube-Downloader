@@ -9,7 +9,7 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
-![Version](https://img.shields.io/badge/version-1.1.4-blue)
+![Version](https://img.shields.io/badge/version-1.1.5-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Powered by](https://img.shields.io/badge/powered%20by-yt--dlp-red)
 
@@ -28,13 +28,41 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
+## 🆕 Version 1.1.5
+
+### ✨ New
+
+* Copy Error Details in failure dialog
+
+* Retry Selected from Download History
+
+* Queue ETA display (toggle in View, persisted)
+
+---
+
+### ⚙️ Improvements
+
+* Improved failure dialog UX with quick actions
+
+* Smarter ETA calculation with fallback support
+
+---
+
+### 🛠️ Fixes
+
+* Fixed incorrect output path in history
+
+* Fixed stuck “Calculating...” estimate labels
+
+---
+
 ## 🆕 Version 1.1.4
 
 ### 🚀 Major Additions
 
 * Rich queue previews (title, thumbnail, size, status)
 
-* Bulk import from .txt (auto dedupe + import summary)
+* Bulk import from .txt (auto dedupe + summary)
 
 * File size estimates (live + in queue)
 
@@ -69,20 +97,6 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 * Clearer failure messages and guidance
 
 * Built-in diagnostics for bug reports
-
----
-
-## 🆕 Version 1.1.3 (Hotfix)
-
-### 🛠️ Fixes
-
-* Fixed incorrect “Site Changed” errors for post-processing/remux failures
-
-* Improved error classification (conversion, remux, ffmpeg)
-
-* Added clearer retry guidance for failed downloads
-
-* Improved accuracy of site/extractor update detection
 
 ---
 
