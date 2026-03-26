@@ -9,7 +9,7 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
-![Version](https://img.shields.io/badge/version-1.1.0-blue)
+![Version](https://img.shields.io/badge/version-1.1.1-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Powered by](https://img.shields.io/badge/powered%20by-yt--dlp-red)
 
@@ -25,6 +25,16 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 * 🎨 Clean and modern user interface
 * 🌓 Light / Dark / System theme support
 * 🔐 Member-only content support (with authentication)
+
+---
+
+## 🆕 Version 1.1.1 (Hotfix)
+
+### 🛠️ Fixes
+
+* Fixed top toolbar collapsing or appearing missing
+
+* Corrected layout so content expands properly while toolbar stays visible
 
 ---
 
@@ -51,24 +61,6 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 * Improved thumbnail processing and consistency
 
 * Smoother and more responsive queue system
-
----
-
-## 🆕 Version 1.0.9
-
-### ✨ Improvements
-
-* Added Queue button in Download Settings
-
-* Updated popup flow:
-
-  * Download → add + start
-  * Queue → add only
-  * Cancel → close popup
-
-* Fixed bottom action bar to always stay visible
-
-* Maintained profile presets and per-site workflow
 
 ---
 
