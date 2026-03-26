@@ -1,9 +1,11 @@
-# 🎬 YouTube Downloader
+# 🎬 StreamFetch
 
 > Fetch your media. Fast.
 
-A powerful and easy-to-use YouTube downloader built with **yt-dlp**.
-Download videos, audio, playlists, and more — all in one clean interface.
+StreamFetch is a powerful and easy-to-use media downloader built with **yt-dlp**.
+Download videos, audio, playlists, and more — all in one clean desktop interface.
+
+> Formerly known as *YouTube Downloader*
 
 ---
 
@@ -20,7 +22,8 @@ Download videos, audio, playlists, and more — all in one clean interface.
 * 📋 Queue multiple URLs
 * 📊 Real-time download progress
 * 📁 Automatic file organization
-* 🎨 Clean and user-friendly interface
+* 🎨 Clean and modern user interface
+* 🌓 Light / Dark / System theme support
 * 🔐 Member-only content support (with authentication)
 
 ---
@@ -29,19 +32,19 @@ Download videos, audio, playlists, and more — all in one clean interface.
 
 ### ✨ Improvements
 
-* Refined and polished the UI for a cleaner desktop experience
+* Refined and polished UI for a cleaner and more consistent desktop experience
 
-* Improved download settings popup for better usability
+* Improved download settings popup for better usability and clearer option selection
 
-* Enhanced download workflow and responsiveness
+* Enhanced overall workflow when adding and starting downloads
 
-* Improved queue and progress updates
+* Improved responsiveness of queue and progress updates
 
 ---
 
 ### 🛠️ Fixes
 
-* Fixed UI inconsistencies across Light/Dark/System themes
+* Fixed minor UI inconsistencies across Light/Dark/System themes
 
 * Improved stability when starting downloads with custom settings
 
@@ -53,13 +56,19 @@ Download videos, audio, playlists, and more — all in one clean interface.
 
 ### 🎨 UI & Features
 
-* Major UI refresh with a classic light desktop layout
+* Major UI refresh with a classic desktop layout
 
 * Added **Light / Dark / System appearance switching**
 
-* New download workflow with settings popup (quality, format, playlist, etc.)
+* New download workflow:
 
-* Includes update checker, queue, and progress system
+  * Clicking Download opens a settings popup before starting
+  * Configure video/audio, quality, format, playlist, save location, speed, and authentication
+
+* Includes:
+
+  * App update checker
+  * Queue and progress system
 
 ---
 
@@ -71,7 +80,7 @@ Download videos, audio, playlists, and more — all in one clean interface.
 
 ## 🔐 Member-Only Content
 
-This downloader supports restricted or member-only videos **only if you have access**.
+StreamFetch supports restricted or member-only videos **only if you have access**.
 
 To use this feature:
 
@@ -82,7 +91,7 @@ To use this feature:
 
 ## 📥 Download
 
-Go to the **Releases** tab and download the latest version.
+Download the latest version from the **Releases** tab.
 
 ---
 
@@ -96,6 +105,6 @@ Go to the **Releases** tab and download the latest version.
 ## ⚠️ Disclaimer
 
 This tool is intended for personal use only.
-Please respect YouTube’s Terms of Service and support content creators.
+Please respect platform terms of service and support content creators.
 
 ---
