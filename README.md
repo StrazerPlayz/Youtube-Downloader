@@ -9,7 +9,7 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
-![Version](https://img.shields.io/badge/version-1.1.2-blue)
+![Version](https://img.shields.io/badge/version-1.1.3-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Powered by](https://img.shields.io/badge/powered%20by-yt--dlp-red)
 
@@ -25,6 +25,20 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 * 🎨 Clean and modern user interface
 * 🌓 Light / Dark / System theme support
 * 🔐 Member-only content support (with authentication)
+
+---
+
+## 🆕 Version 1.1.3 (Hotfix)
+
+### 🛠️ Fixes
+
+* Fixed incorrect “Site Changed” errors for post-processing/remux failures
+
+* Improved error classification (conversion, remux, ffmpeg)
+
+* Added clearer retry guidance for failed downloads
+
+* Improved accuracy of site/extractor update detection
 
 ---
 
@@ -47,16 +61,6 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 * Queue fully functional in both docked and pop-out modes
 
 * Improved layout flexibility and usability
-
----
-
-## 🆕 Version 1.1.1 (Hotfix)
-
-### 🛠️ Fixes
-
-* Fixed top toolbar collapsing or appearing missing
-
-* Corrected layout so content expands properly while toolbar stays visible
 
 ---
 
