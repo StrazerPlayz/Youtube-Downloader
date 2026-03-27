@@ -9,7 +9,7 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
-![Version](https://img.shields.io/badge/version-1.1.5-blue)
+![Version](https://img.shields.io/badge/version-1.1.6-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Powered by](https://img.shields.io/badge/powered%20by-yt--dlp-red)
 
@@ -25,6 +25,24 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 * 🎨 Clean and modern user interface
 * 🌓 Light / Dark / System theme support
 * 🔐 Member-only content support (with authentication)
+
+---
+
+## 🆕 Version 1.1.6
+
+### ✨ Improvements
+
+* Copy Error Details now includes full yt-dlp command
+
+* Command capture across retries (auth, 403, Cloudflare fallback)
+
+* Improved debugging with fully reproducible command context
+
+---
+
+### ⚙️ Stability
+
+* Maintenance update with no UI changes from v1.1.5
 
 ---
 
@@ -53,50 +71,6 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 * Fixed incorrect output path in history
 
 * Fixed stuck “Calculating...” estimate labels
-
----
-
-## 🆕 Version 1.1.4
-
-### 🚀 Major Additions
-
-* Rich queue previews (title, thumbnail, size, status)
-
-* Bulk import from .txt (auto dedupe + summary)
-
-* File size estimates (live + in queue)
-
-* Cookies.txt importer with validation and management
-
----
-
-### 🔐 Improvements
-
-* Smarter authentication flow with cookie priority
-
-* Improved handling for protected sites and 403 errors
-
-* Better support for direct stream links (.mp4 / .m3u8)
-
----
-
-### 🎨 UI / UX
-
-* Queue pop-out and layout controls
-
-* Resizable layout with saved state
-
-* Improved download/queue workflow
-
----
-
-### 🛠️ Error Handling
-
-* More accurate error classification
-
-* Clearer failure messages and guidance
-
-* Built-in diagnostics for bug reports
 
 ---
 
