@@ -9,7 +9,7 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
-![Version](https://img.shields.io/badge/version-1.1.9-blue)
+![Version](https://img.shields.io/badge/version-1.1.10-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Powered by](https://img.shields.io/badge/powered%20by-yt--dlp-red)
 
@@ -28,13 +28,25 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
 
 ---
 
+## 🆕 Version 1.1.10 — Codec Compatibility Fix
+
+### 🛠️ Fixes
+
+* Fixed downloads producing files that weren’t compatible with standard media players
+
+* StreamFetch now prioritizes **H.264 (AVC) + AAC** for maximum compatibility
+
+* Falls back to VP9 / AV1 when H.264 isn’t available
+
+---
+
 ## 🆕 Version 1.1.9 (Hotfix)
 
 ### 🛠️ Fixes
 
-* Clean rebuild after PyInstaller cache caused the v1.1.8 installer to package an older executable
+* Clean rebuild after PyInstaller cache packaged an older executable
 
-* v1.1.9 now correctly includes all intended v1.1.8 features
+* Correctly includes all intended v1.1.8 features
 
 ---
 
@@ -48,38 +60,7 @@ Download videos, audio, playlists, and more — all in one clean desktop interfa
   * Live Streams Only
   * Podcasts Only
 
-* Supported channel URL formats:
-
-  * `/channel/`
-  * `/@`
-  * `/c/`
-
 * Installer destination selection with Browse support
-
----
-
-## 🆕 Version 1.1.8
-
-### ✨ New Features
-
-* Added YouTube channel filtering:
-
-  * All Videos
-  * Videos Only
-  * Shorts Only
-  * Live Streams Only
-  * Podcasts Only
-
-* Channel filters work with:
-
-  * Saved profiles
-  * History retry
-
----
-
-### 📦 Installer Improvements
-
-* Added custom install directory selection during setup
 
 ---
 
